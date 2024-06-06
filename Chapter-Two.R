@@ -39,3 +39,6 @@ test_labels[1]
 
 metrics <- evaluate(model, test_images, test_labels)
 metrics["accuracy"]
+
+
+
