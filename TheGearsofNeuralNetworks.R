@@ -1,7 +1,7 @@
 library(tensorflow)
 library(keras)
 
-#2.3 The gears of neural networks
+#2.3 The gears of neural networks: Tensor Operations
 
 layer_dense(units = 512, activation = "relu")
 
@@ -139,5 +139,36 @@ naive_vector_dot <- function(x, y){
     
   
 }
+
+#2.3.4 Tensor Reshaping
+
+train_images <- array_reshape(train_images, c(60000, 28 * 28))
+
+x <- array(1:6)
+x
+
+#different array structures
+array_reshape(x, dim = c(3,2))
+
+x <-array_reshape(x, dim = c(2,3))
+x
+
+
+#transpose of x
+t(x)
+
+
+"
+2.3.5 Geometric Interpretation of tensor operations
+
+basically linear algebra
+
+
+
+2.3.6
+
+a geometric interpretation of deep learning
+
+"
 
 
