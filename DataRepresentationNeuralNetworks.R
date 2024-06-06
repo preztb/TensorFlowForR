@@ -65,5 +65,3 @@ batch <- train_images[129:256, , ]
 n <- 3
 batch <- train_images[seq(to = 128 * n, length.out = 128), , ]
 
-#2.2.8 real applications of 
-
